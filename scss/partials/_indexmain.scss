@@ -1,0 +1,204 @@
+main{
+    .container-fondoIndex{
+        background-color: black;
+        min-height: 91vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        @media (min-width: 768px){
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        @media (min-width: 1024px){
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            @media (min-width: 768px){
+                font-size: 3rem;
+            }
+            @media (min-width: 1024px){
+                font-size: 5rem;
+            }
+        }
+        .imgfondo{
+            width: 20rem;
+            margin: 0 auto;
+            
+            @media (min-width: 768px){
+                margin: 0;
+                width: 25rem;
+            }
+            @media (min-width: 1024px){
+                margin: 0;
+                width: 28rem;
+            }
+        }
+    }
+    .container-flex-Nosotros{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+        @media (min-width: 768px){
+            flex-direction: row;
+        }
+        @media (min-width: 1024px){
+            
+        }
+        .imgNosotros{
+            width: 100%;
+            @media (min-width: 768px){
+                width: 28rem;
+            }
+            @media (min-width: 1024px){
+                width: 35rem;
+            }
+        }
+        .containerNosotros{
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            @media (min-width: 768px){
+                
+            }
+            @media (min-width: 1024px){
+                padding: 0.9rem 2rem;
+                width: 55%;
+            }
+            h2{
+                
+                @media (min-width: 1024px){
+                    font-size: 3rem;
+                }
+            }
+            p{}
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+    .destacado{
+        display: flex;
+        flex-direction: column;
+        @media (min-width: 576px){
+            
+        }
+        @media (min-width: 768px){
+            
+        }
+        @media (min-width: 1024px){
+            
+        }
+        h3{
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .container-destacado{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            @media (min-width: 576px){
+                justify-content: space-evenly;
+            }
+            @media (min-width: 768px){
+                
+            }
+            @media (min-width: 1024px){
+                
+            }
+            .producto{
+                height: auto;
+                margin-bottom: 1rem;
+                img{
+                    width: 11rem;
+                    @media (min-width: 528px){
+                        width: 13rem;
+                    }
+                    @media (min-width: 768px){
+                        width: 16rem;
+                    }
+                    @media (min-width: 1024px){
+                        
+                    }
+                }
+                h4{
+                    text-align: center;
+                    margin-bottom: 5px;
+                }
+                p{
+                    text-align: center;
+                    margin-bottom: 3px;
+                }
+                .button{
+                    display: flex;
+                    justify-content: center;
+                    a{
+                        text-decoration: none;
+                    }
+
+                }
+            }
+        }
+        a{
+            text-decoration: none;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .container-flex-categoria{
+        h3{
+            @media (min-width: 1024px){
+                text-align: center;     
+            }
+        }
+
+    }
+
+
+
+
+
+
+    .container-flex-seguro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0;
+        @media (min-width: 768px){
+            justify-content: center;
+            flex-direction: row;
+        }
+        @media (min-width: 1024px){
+            
+        }
+        .container-seguro{
+            display: flex;
+            flex-direction: row;
+            padding: 1rem 1.5rem;
+            @media (min-width: 1024px){
+                padding: 0 1.5rem;
+            }
+            img{}
+            h5{}
+            p{}
+        }
+        .btn1{
+            
+            @media (min-width: 768px){
+                border-right: 1px solid black;
+            }
+        }
+        .btn3{
+            
+            @media (min-width: 768px){
+                border-left: 1px solid black;
+            }
+        }
+    }
+}

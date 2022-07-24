@@ -1,0 +1,121 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+} */
+
+/* Acomodamiento de area */
+/* header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+} */
+
+/* Grilla General */
+/* .grid-container{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3,auto);
+} */
+
+/* Codigo General */
+/* Header */
+/* .colorNav{
+    background-color: rgb(26, 26, 34);
+} */
+/* Main */
+/* main{
+
+} */
+
+
+/* .container-fondoIndex{
+    background-color: black;
+    min-height: 91vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* .container-flex-contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: inherit;
+    justify-content: space-around;
+} */
+/* .container-flex-contacto iframe{
+    height: 28.125rem;
+    width: 29.4375rem;
+} */
+/* .tamanio{
+    width: 40rem;
+} */
+/* .tamanio ul{
+    list-style: none;
+} */
+
+/* .imgfondo{
+    width: 28rem;
+}  */
+/* h1{
+    color: white;
+    font-size: 5rem;
+} */
+.con{
+    background-color: white;
+}
+/* .imgNosotros{
+    width: 35rem;
+} */
+/* .containerNosotros{
+    display:flex;
+    flex-direction: column;
+} */
+/* footer{
+    background-color: burlywood;
+    
+} */
+/* .container-flex-footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+} */
+
+/* footer ul{
+    list-style: none;
+} */
+/* footer iframe{
+    width: 18.75rem;
+    height: 18.75rem;
+    padding: 1rem;
+} */
+/* .autorFooter{
+    align-items: center;
+} */
+/* .destacado{
+    display: flex;
+    flex-direction: column;
+}
+.container-destacado{
+    display: flex;
+    flex-direction: row;
+} */

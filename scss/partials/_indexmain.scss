@@ -181,8 +181,10 @@ main{
             display: flex;
             flex-direction: row;
             padding: 1rem 1.5rem;
+            
             @media (min-width: 1024px){
                 padding: 0 1.5rem;
+                
             }
             img{}
             h5{}

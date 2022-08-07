@@ -1,4 +1,9 @@
 main{
+    .fondo-producto{
+        h1{
+            text-align: center;
+        }
+    }
     .productos{
         display: flex;
         flex-direction: column;
@@ -55,7 +60,7 @@ main{
                 }
                 h4{
                     text-align: center;
-                    // margin-bottom: 5px;
+                    
                 }
                 .ajuste{
                     margin-bottom: 0;
